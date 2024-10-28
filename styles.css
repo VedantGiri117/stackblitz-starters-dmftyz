@@ -1,0 +1,100 @@
+body {
+  background-color: #f5f0e6;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  margin: 0;
+}
+
+span {
+  display: block;
+}
+.canvas {
+  margin: 10px auto 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 70px;
+  border: solid black 2px;
+  border-radius: 30%;
+  display: inline-block;
+}
+
+#Grey {
+  background: grey;
+}
+
+#White {
+  background: white;
+}
+#Blue {
+  background: blue;
+}
+#yellow {
+  background: yellow;
+}
+#purple {
+  background: purple;
+}
+
+nav{
+  text-align: center;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+h2 {
+  font-size: 25px;
+  color: #333;
+  margin-top: 30px;
+  font-weight: unset;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #e0e0e0;
+  border: 2px solid #333;
+  border-radius: 15px;
+  transition: all 0.3s;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+a:hover {
+  background-color: #333;
+  color: #f5f0e6;
+}
+
+.button {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  border: 3px solid #333;
+  border-radius: 10px;
+  transition: transform 0.2s, box-shadow 0.3s;
+  cursor: grab;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 10, 0, 0.3);
+}
